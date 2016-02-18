@@ -83,8 +83,6 @@
             $this->assertEquals(18, $result);
         }
 
-
-
     }
 
 ?>

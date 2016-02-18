@@ -1,5 +1,7 @@
 <?php
     class Scrabble{
+
+
         function scrabble_score($user_input)
         {
             $user_input = strtolower($user_input);

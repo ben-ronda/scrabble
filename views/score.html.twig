@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Scrabble</title>
+    </head>
+    <body>
+        <div class="">
+            <h1>Scrabble Score Calculator</h1>
+        </div>
+        <div>
+            <form class="form-group" action="/points" method="post">
+                <div>
+                    <label for="word"></label>
+                    <input type="text" name="word" id="word">
+                </div>
+                <button type="submit" class="btn btn-default">Score!</button>
+        </div>
+
+        <div>
+            {% if results is not empty %}
+                <h3>Score = {{ results }}</h3>
+            {% endif %}
+        </div>
+
+    </body>
+</html>
